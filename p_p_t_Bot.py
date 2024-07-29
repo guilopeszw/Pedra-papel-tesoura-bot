@@ -21,45 +21,45 @@ def jogo():
         elif jogador == "pedra" and jogadorBot == "tesoura":
             print("Você venceu. O robô jogou tesoura.")
             continuar = str(input("Você deseja continuar jogando? "))
-            if continuar == "não" or continuar == "n" or continuar == "nn":
+            if continuar == "não" or continuar == "n" or continuar == "nn" or continuar == "nao":
                 print("Obrigado por jogar!")
                 break
         elif jogador == "papel" and jogadorBot == "tesoura":
             print("Você perdeu. O robô jogou tesoura.")
             continuar = str(input("Você deseja continuar jogando? "))
-            if continuar == "não" or continuar == "n" or continuar == "nn":
+            if continuar == "não" or continuar == "n" or continuar == "nn" or continuar == "nao":
                 print("Obrigado por jogar!")
                 break
 # robô jogou papel:
         elif jogador == "pedra" and jogadorBot == "papel":
             print("Você perdeu. O robô jogou papel.")
             continuar = str(input("Você deseja continuar jogando? "))
-            if continuar == "não" or continuar == "n" or continuar == "nn":
+            if continuar == "não" or continuar == "n" or continuar == "nn" or continuar == "nao":
                 print("Obrigado por jogar!")
                 break
         elif jogador == "tesoura" and jogadorBot == "papel":
             print("Você venceu. O robô jogou papel.")
             continuar = str(input("Você deseja continuar jogando? "))
-            if continuar == "não" or continuar == "n" or continuar == "nn":
+            if continuar == "não" or continuar == "n" or continuar == "nn" or continuar == "nao":
                 print("Obrigado por jogar!")
                 break
 # robô jogou pedra:
         elif jogador == "papel" and jogadorBot == "pedra":
             print("Você venceu. O robô jogou pedra.")
             continuar = str(input("Você deseja continuar jogando? "))
-            if continuar == "não" or continuar == "n" or continuar == "nn":
+            if continuar == "não" or continuar == "n" or continuar == "nn" or continuar == "nao":
                 print("Obrigado por jogar!")
                 break
         elif jogador == "tesoura" and jogadorBot == "pedra":
             print("Você perdeu. O robô jogou pedra.")
             continuar = str(input("Você deseja continuar jogando? "))
-            if continuar == "não" or continuar == "n" or continuar == "nn":
+            if continuar == "não" or continuar == "n" or continuar == "nn" or continuar == "nao":
                 print("Obrigado por jogar!")
                 break
 # empate:
         if jogador == jogadorBot:
             print("Empate. Jogue novamente.")
-            if continuar == "não" or continuar == "n" or continuar == "nn":
+            if continuar == "não" or continuar == "n" or continuar == "nn" or continuar == "nao":
                 print("Obrigado por jogar!")
                 break
             else:
