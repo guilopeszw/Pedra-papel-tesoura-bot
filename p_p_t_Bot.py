@@ -59,6 +59,7 @@ def jogo():
 # empate:
         if jogador == jogadorBot:
             print("Empate. Jogue novamente.")
+            continuar = str(input("Você deseja continuar jogando? "))
             if continuar == "não" or continuar == "n" or continuar == "nn" or continuar == "nao":
                 print("Obrigado por jogar!")
                 break
