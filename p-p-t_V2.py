@@ -17,8 +17,7 @@ def jogo():
             input("Você quer jogar pedra, papel ou tesoura? ")).lower().strip()
 # checagem da jogada:
         if jogador not in jogadas:
-            continuar = str(
-                input("Jogada inválida. Você deseja tentar novamente? ")).lower().strip()
+            print("Jogada inválida.")
 # robô jogou tesoura:
         if jogador == "pedra" and jogadorBot == "tesoura":
             print("Você venceu. O robô jogou tesoura.")
