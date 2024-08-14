@@ -18,7 +18,7 @@ def jogo():
 # checagem da jogada:
         if jogador not in jogadas:
             continuar = str(
-                input("Jogada inválida. Você deseja tentar novamente? "))
+                input("Jogada inválida. Você deseja tentar novamente? ")).lower().strip()
 # robô jogou tesoura:
         if jogador == "pedra" and jogadorBot == "tesoura":
             print("Você venceu. O robô jogou tesoura.")
@@ -38,7 +38,7 @@ def jogo():
         elif jogador == jogadorBot:
             print("Empate. Jogue novamente.")
 # loop do while:
-        continuar = str(input("Você deseja continuar jogando? "))
+        continuar = str(input("Você deseja continuar jogando? ")).lower().strip()
 jogo()
 # finalização do jogo
 print("Obrigado por jogar!")
